@@ -4,14 +4,50 @@
 <head>
   <meta charset="utf-8">
   <title>GifTastic - Dan Testa</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 
 <body>
-  <button data-animal="cat">meow</button>
-  <button data-animal="dog">woof</button>
-  <button data-animal="bird">chirp</button>
+
+  <div class="container">
+
+      <br>
+
+      <div class="jumbotron">
+        <h1 class="text-center">GifTastic</h1>
+        <h3 class="text-center">Add a Gif Button</h3>
+      </div>
+
   <div id="gifs-appear-here">
   </div>
+      
+      <br>
+
+    <h1>Gif Search</h1>
+    <br>
+
+    <!-- Movies will Get Dumped Dere -->
+    <div id="movies-view"></div>
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div><br>
+
+      <form id="movie-form">
+      <label for="movie-input">Add More Gifs</label>
+      <br>
+      <input type="text" id="movie-input"><br><br>
+
+            <input id="add-movie" type="submit" value="Click to Add">
+    </form>
+
+  </div>
+
+
+
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/javascript/hw.js"></script>
 </body>
